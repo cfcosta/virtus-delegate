@@ -21,4 +21,8 @@ class DelegatedClass
   def nickname
     super + ', omg'
   end
+
+  def nickname=(val)
+    super(val.delete(' ').downcase)
+  end
 end

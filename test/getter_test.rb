@@ -6,7 +6,7 @@ describe Virtus::Delegate do
   let(:object) { MockClass.new(id: 123, name: "Hello World", nickname: 'it works') }
   subject { DelegatedClass.new(object) }
 
-  it "gets the accessors correctly" do
+  it "gets the readers correctly" do
     assert_equal 123, subject.id
     assert_equal "Hello World", subject.name
   end
