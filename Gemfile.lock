@@ -1,3 +1,9 @@
+PATH
+  remote: .
+  specs:
+    virtus-delegate (0.0.1)
+      virtus (~> 1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -11,7 +17,6 @@ GEM
       thread_safe (~> 0.3, >= 0.3.1)
     equalizer (0.0.9)
     ice_nine (0.11.0)
-    rake (0.9.6)
     thread_safe (0.3.3)
     virtus (1.0.2)
       axiom-types (~> 0.1)
@@ -23,5 +28,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rake
-  virtus
+  virtus-delegate!
